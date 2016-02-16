@@ -1,0 +1,66 @@
+html>body {
+	background:#fdf1d9 url(original/background.png) -10px -8px;
+}
+
+* html #page {
+	background:url(original/page-background.jpg);
+}
+
+#previous-photo	{
+    background-image: url(original/hand-left-off.gif);
+}
+#previous-photo a {
+    background-image: url(original/hand-left.gif);
+}
+
+#next-photo {
+    background-image: url(original/hand-right-off.gif);
+}
+#next-photo a {
+    background-image: url(original/hand-right.gif);
+}
+
+#photo-list {
+    background-image: url(original/yellow-buttons-off.gif);
+}
+#photo-list a {
+    background-image: url(original/yellow-buttons.gif);
+}
+
+* html #page-bottom {
+	background:url(original/page-bottom.jpg);
+}
+#page-bottom-contents {
+	background: url(original/page-bottom.png) no-repeat 0px bottom;
+}
+.pagelet.bordered.titled {
+	background: url(original/pagelet-background.jpg) top repeat-y;
+}
+html>body .pagelet.bordered.titled {
+	background-image: url(original/pagelet-background.png);
+}
+.pagelet.bordered.titled  div.pagelet-body {
+	background: url(original/pagelet-bottom.jpg) bottom no-repeat;
+}
+html>body .pagelet.bordered.titled  div.pagelet-body {
+	background-image: url(original/pagelet-bottom.png);
+}
+.pagelet.bordered.titled h4 {
+	background: url(original/pagelet-top.jpg) top no-repeat;
+}
+html>body .pagelet.bordered.titled h4 {
+	background-image: url(original/pagelet-top.png);
+}
+.blockquote-container>.pagelet-body, .blockquote-container>.graphic,
+.blockquote-container .pagelet-body:after, .blockquote-container .graphic:after {
+	background-image: url(original/QuotationMarks-Summertime-original.png);
+}
+#title {
+	background: url(original/page-top.jpg) top left no-repeat;
+}
+html>body #title {
+	background:url(original/page-top.png);
+}
+#sitemenu, #sitemenu ul li ul li {
+	background: url(original/sitemenu-background.png);
+}
