@@ -20,8 +20,12 @@
 	<body class="sandvox no-page-title allow-sidebar no-custom-banner home-page no-IR" id="printsafe_org" >
 				<div id="page-container">
 			<div id="page">
-				<div id="page-top" class="no-logo has-title no-tagline">
+				<div id="page-top" class="has-logo has-title no-tagline">
 					<div id="title">
+						<span id="logo-container"><span id="logo" data-img-src="_Media/3d-printer-xxl_med.png" data-img-src-hr="_Media/3d-printer-xxl_med_hr.png" data-alt="3d-printer-xxl" data-width="128" data-height="128" style="width:128px; height:128px;">
+								<noscript><img src="_Media/3d-printer-xxl_med.png" alt="3d-printer-xxl" width="128" height="128" /></noscript>
+							</span>
+						</span>
 						<h1 class="title"><span class="in">The PrintSafe Project</span></h1>
 					</div><!-- title -->
 					<div id="sitemenu-container">
@@ -39,7 +43,7 @@
 							<div class="article">
 								<div class="article-content">
 									<div class="RichTextElement">
-										<div><p>Currently under development, <strong>The PrintSafe Project</strong> will inform 3D printer users about the potential hazards of their printers and educate users about safe printer use.</p><p>The leader of <strong>The PrintSafe Project</strong> is <a href="http://groverlab.org/">Prof. William Grover</a> of the Bioengineering Department at the University of California, Riverside.</p></div>
+										<div><p><br /></p><p>Currently under development, <strong>The PrintSafe Project</strong> will inform 3D printer users about the potential hazards of their printers and educate users about safe printer use.</p><p>The leader of <strong>The PrintSafe Project</strong> is <a href="http://groverlab.org/">Prof. William Grover</a> of the Bioengineering Department at the University of California, Riverside.</p></div>
 									</div>
 								</div> <!-- /article-content -->
 								<div class="article-info">
@@ -64,6 +68,9 @@
 		if (typeof jQuery === 'undefined') document.write('<scr'+'ipt src="_Resources/jquery-1.9.1.min.js"></scr'+'ipt>');
 		</script>
 		
+		<script>
+		$(document).ready(function(){var e=window.devicePixelRatio&&window.devicePixelRatio>1?window.devicePixelRatio:1,t=window.innerWidth>window.innerHeight?screen.height:screen.width;$("span[data-img-src-hr]").each(function(){var n=$(this).data("width"),r=$(this).data("height"),i=$(this).data("alt"),s='<img src="',o=e>1&&n<2*t,u=0,a=$(this)[0].attributes;if(o){s+=$(this).data("img-src-hr")}else{s+=$(this).data("img-src")}s+='"';if(i)s+=' alt="'+i+'"';if(n)s+=' width="'+n+'"';if(r)s+=' height="'+r+'"';for(l=a.length;u<l;u++){var f=a[u].name;if(!f.match(/(data-width|data-height|data-alt|data-img-src)/g)){s+=" "+f+'="'+a[u].value+'"'}}s+=" />";$(this).replaceWith($(s))})})
+		</script>
 		
 	</body>
 </html>
