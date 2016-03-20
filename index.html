@@ -1,76 +1,42 @@
-<!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
-	<head>
-		<meta charset="utf-8" />
-		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
-				<title>Home Page | The PrintSafe Project</title>
-		<meta name="robots" content="all" />
-		<meta name="generator" content="Sandvox 2.10.3" />
-		<meta name="viewport" content="width=780" />
-		<link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
-		<link rel="canonical" href="http://printsafe.org/" />
-		
-		<link rel="stylesheet" type="text/css" href="sandvox_Summertime/main.css" title="Summertime" />
-		<!--
-		Photo credits for this website's design: <http://printsafe.org/sandvox_Summertime/Credits.rtf>
-		Licensing for this website's design:     <http://printsafe.org/sandvox_Summertime/License.rtf>
-		-->
-		
-	</head>
-	<body class="sandvox no-page-title allow-sidebar no-custom-banner home-page no-IR" id="printsafe_org" >
-				<div id="page-container">
-			<div id="page">
-				<div id="page-top" class="has-logo has-title no-tagline">
-					<div id="title">
-						<span id="logo-container"><span id="logo" data-img-src="3d-printer-xxl_med.png" data-img-src-hr="3d-printer-xxl_med_hr.png" data-alt="3d-printer-xxl" data-width="128" data-height="128" style="width:128px; height:128px;">
-								<noscript><img src="3d-printer-xxl_med.png" alt="3d-printer-xxl" width="128" height="128" /></noscript>
-							</span>
-						</span>
-						<h1 class="title"><span class="in">The PrintSafe Project</span></h1>
-					</div><!-- title -->
-					<div id="sitemenu-container">
-						
-					</div> <!-- sitemenu-container -->
-				</div> <!-- page-top -->
-				<div class="clear below-page-top"></div>
-				<div id="page-content" class="">
-					<div id="sidebar-container">
-						
-					</div> <!-- sidebar-container -->
-					<div id="main">
-						<div id="main-top"></div>
-						<div id="main-content">
-							<div class="article">
-								<div class="article-content">
-									<div class="RichTextElement">
-										<div><p><br /></p><p>Currently under development, <strong>The PrintSafe Project</strong> will inform 3D printer users about the potential hazards of their printers and educate users about safe printer use.</p><p>The leader of <strong>The PrintSafe Project</strong> is <a href="http://groverlab.org/">Prof. William Grover</a> of the Bioengineering Department at the University of California, Riverside.</p></div>
-									</div>
-								</div> <!-- /article-content -->
-								<div class="article-info">
-								</div> <!-- /article-info -->
-							</div> <!-- /article -->
-						</div> <!-- main-content -->
-						<div id="main-bottom"></div>
-					</div> <!-- main -->
-				</div> <!-- content -->
-				<div class="clear below-content"></div>
-				<div id="page-bottom">
-					<div id="page-bottom-contents">
-						<div>© 2016 The Regents of the University of California</div>
-						<div class="hidden"> <a rel="nofollow" href="#title">[Back To Top]</a></div>
-					</div>
-				</div> <!-- page-bottom -->
-			</div> <!-- container -->
-			<div id="extraDiv1"><span></span></div><div id="extraDiv2"><span></span></div><div id="extraDiv3"><span></span></div><div id="extraDiv4"><span></span></div><div id="extraDiv5"><span></span></div><div id="extraDiv6"><span></span></div>
-		</div> <!-- specific body type -->
-		<script src="//ajax.aspnetcdn.com/ajax/jQuery/jquery-1.9.1.min.js"></script>
-		<script>
-		if (typeof jQuery === 'undefined') document.write('<scr'+'ipt src="_Resources/jquery-1.9.1.min.js"></scr'+'ipt>');
-		</script>
-		
-		<script>
-		$(document).ready(function(){var e=window.devicePixelRatio&&window.devicePixelRatio>1?window.devicePixelRatio:1,t=window.innerWidth>window.innerHeight?screen.height:screen.width;$("span[data-img-src-hr]").each(function(){var n=$(this).data("width"),r=$(this).data("height"),i=$(this).data("alt"),s='<img src="',o=e>1&&n<2*t,u=0,a=$(this)[0].attributes;if(o){s+=$(this).data("img-src-hr")}else{s+=$(this).data("img-src")}s+='"';if(i)s+=' alt="'+i+'"';if(n)s+=' width="'+n+'"';if(r)s+=' height="'+r+'"';for(l=a.length;u<l;u++){var f=a[u].name;if(!f.match(/(data-width|data-height|data-alt|data-img-src)/g)){s+=" "+f+'="'+a[u].value+'"'}}s+=" />";$(this).replaceWith($(s))})})
-		</script>
-		
-	</body>
-</html>
+---
+layout: default
+---
+
+<div class="home">
+
+<!-- <h2>Welcome to the Grover Lab at the University of California, Riverside!</h2> -->
+
+<p>
+<i>The PrintSafe Project</i> seeks to inform 3D printer users about the potential hazards of their printers and educate users about safe printer use.
+</p><br>
+
+  <!-- <h1>Start here:</h1> -->
+
+<ul class="post-list">
+  <li>
+      <br>
+      <img src="/assets/thinking.png" align="left" style="margin:0px 20px 0px 0px">
+        <h2>
+          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">Thinking about getting a 3D printer?</a>
+        </h2>
+        Different types of printers have different risks.  Learn how to select the safest printer that suits your needs.
+        <br><br>
+      </li>
+
+
+
+            <li>
+      <br>
+            <img src="/assets/printer.png" align="left" style="margin:0px 20px 0px 0px">
+
+        <h2>
+          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">Already have a 3D printer?</a>
+        </h2>
+Tell us what type of 3D printer you have, and we will provide you with the latest information on how to use it safely.<br><br>
+      </li>
+
+  </ul>
+
+  <!-- <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p> -->
+
+</div>
